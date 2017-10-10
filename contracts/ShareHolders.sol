@@ -263,7 +263,7 @@ contract ShareHolders is Ownable {
 
 					// for testing purpose
 					if (equityPrice <= 0)
-						equityPrice = 10;
+						equityPrice = 10 * 1 ether;
 
 					// require(equityPrice > 0);	
 
